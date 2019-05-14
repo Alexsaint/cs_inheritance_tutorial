@@ -8,8 +8,16 @@ namespace inheritance
 {
     class Program
     {
+        class animal
+        {
+            public void Eat()
+            {
+                Console.WriteLine("All animals eat");
+            }
+        }
         static void Main(string[] args)
         {
+
         }
     }
 }
